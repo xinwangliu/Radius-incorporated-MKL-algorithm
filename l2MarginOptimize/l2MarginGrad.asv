@@ -1,0 +1,8 @@
+function [grad] = l2MarginGrad(K,indsup,Alpsup,Sigma)
+%Author : Xinwang Liu
+
+d=size(K,3);
+for k=1:d    
+    grad(k) = - Alpsup'* K(indsup,indsup,k) * Alpsup ;
+end
+grad(1)=  sum(Alpsup.*Alpsup) * Sigma(1)^2;

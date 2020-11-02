@@ -1,0 +1,12 @@
+toy_exp				- toy experiment illustrating when (non-)sparse mkl helps
+
+mnist               - runtime experiments on mnist data
+
+subloc_new			- subcellular localization experiment
+
+bleakley            - metabolic gene network reconstruction experiment
+
+tss                 - transcription start site detection
+
+alignments			- kernel target alignments of bleakley, subloc and tss
+                      experiments above

@@ -1,0 +1,9 @@
+0 = Time for training
+0 = Time for calculate objective
+2.17057 = Norm of solution
+0.993051 = avg Loss of solution
+0.489613 = avg zero-one error of solution
+0.993056 = primal objective of solution
+0 = avg Loss over test
+0 = avg zero-one error over test
+

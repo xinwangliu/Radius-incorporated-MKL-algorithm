@@ -1,0 +1,18 @@
+Paper: A binary classification framework for two stage multiple kernel learning, ICML 2011
+
+Usage:
+[w1 w2] = binarymkl (M, tr_label, pathfile, resultfile, EXPname, permind);
+ (read the comments in file binarymkl.m for description of input and output parameters)
+
+Contents:
+- Two pegasos based implementations (modified from original pegasos to add additional projection onto positive orthant)
+  -- pegasos: do "make" to build the executable on your platform
+  -- pegasosMultLambda: do "make" to build the executable on your platform
+- paths.m: example pathfile
+- other .m files needed for running "binarymmkl.m"
+
+
+References:
+pegasos: 
+Shai Shalev-Shwartz, Yoram Singer, Nathan Srebro, "Pegasos: Primal Estimated sub-GrAdient SOlver for SVM", ICML 2007 
+
