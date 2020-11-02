@@ -1,4 +1,3 @@
-# ONMSC
 Matlab code for Pattern Recognition(2015): An efficient radius-incorporated MKL algorithm for Alzheimer's disease prediction
 
 Please cite:
